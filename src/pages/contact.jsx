@@ -7,7 +7,8 @@ export default function ContactMe () {
 
     return(
         <body>
-            <Header title="Contact"/>
+            <Header title="Contact" description="Pour me contacter en vue d'un entretien ou d'une future collaboration,
+            merci de remplir le formulaire de contact."/>
         </body>
     );
 }
