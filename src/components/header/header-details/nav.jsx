@@ -26,7 +26,7 @@ export default function Nav () {
                             <NavLink className="nav-link text-light text-uppercase" to ="/contact">Contact</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link text-light text-uppercase" to ="/services">Mentions Légales</NavLink>
+                            <NavLink className="nav-link text-light text-uppercase" to ="/mentionslegales">Mentions Légales</NavLink>
                         </li>
                     </ul>   
                 </div>
