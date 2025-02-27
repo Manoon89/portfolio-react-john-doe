@@ -7,8 +7,8 @@ import Modale from './header-details/modale' ;
 export default function Header () {
 
     return(
-        <div>
-            
-        </div>
+        <header>
+            <Nav />
+        </header>
     );
 }
