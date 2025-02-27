@@ -7,7 +7,6 @@ import Services from "./pages/services" ;
 import Portfolio from "./pages/portfolio" ;
 import Contact from "./pages/contact" ;
 import MentionsLegales from "./pages/mentions" ;
-import Header from "./components/header/header" ;
 import Footer from "./components/footer/footer" ;
 
 function App() {
