@@ -1,2 +1,9 @@
-import Button from '../components/globals/button' ;
-import Achievements from '../components/globals/achievments' ;
+import Achievments from '../components/sglobals/achievments';
+
+export default function MyAchievments () {
+    return (
+        <div> 
+
+        </div>
+    );
+}

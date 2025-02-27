@@ -1,4 +1,13 @@
-import SocialMedias from './footer-details/social-medias' ;
-import Address from '../globals/address' ;
-import Achievments from '../globals/achievments' ;
-import Plan from '../header-and-footer/plandesite' ;
+import Social from './footer-details/social-medias' ;
+import Address from '../sglobals/address' ;
+import Achievments from '../sglobals/achievments' ;
+import Plan from '../sglobals/plandesite' ;
+
+export default function Footer () {
+
+    return(
+        <div>
+            
+        </div>
+    );
+}
