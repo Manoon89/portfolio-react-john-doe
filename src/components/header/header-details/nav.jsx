@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom' ;
 export default function Nav () {
 
     return(
-        <nav className="navbar navbar-dark navbar-expand-lg bg-dark container-fluid">
+        <nav className="navbar navbar-dark navbar-expand-md bg-dark container-fluid">
             <div className="container-fluid">
                 <a className="navbar-brand text-light text-uppercase" href="/">John Doe</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -12,9 +12,9 @@ export default function Nav () {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end flex-grow-1 pe-3">
+                    <ul className="navbar-nav me-auto mb-2 mb-md-0 justify-content-end flex-grow-1 pe-3">
                         <li className="nav-item">
-                            <NavLink className="nav-link text-light text-uppercase" to ="/" >Home</NavLink>
+                            <NavLink className="nav-link text-light text-uppercase" to ="/">Home</NavLink>
                         </li>
                         <li>
                             <NavLink className="nav-link text-light text-uppercase" to ="/services">Services</NavLink>
