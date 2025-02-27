@@ -1,0 +1,1 @@
+import MentionsDetails from '../components/mentions/details-mentions' ;
