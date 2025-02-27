@@ -6,8 +6,8 @@ import Header from "../components/header/header" ;
 export default function ContactMe () {
 
     return(
-        <div>
+        <body>
             <Header title="Contact"/>
-        </div>
+        </body>
     );
 }

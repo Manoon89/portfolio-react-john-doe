@@ -4,8 +4,8 @@ import Header from "../components/header/header" ;
 export default function MyServices () {
 
     return(
-        <div>
+        <body>
             <Header title="Mon offre de services" />            
-        </div>
+        </body>
     );
 }

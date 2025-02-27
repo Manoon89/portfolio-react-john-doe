@@ -4,8 +4,8 @@ import Header from "../components/header/header" ;
 export default function MentionsLegales () {
 
     return(
-        <div>
+        <body>
             <Header title="Mentions Légales" />
-        </div>
+        </body>
     );
 }
