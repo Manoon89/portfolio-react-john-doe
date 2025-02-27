@@ -11,7 +11,7 @@ import screensImg from "../assets/images/portfolio/screens.jpg"
 export default function MyAchievments () {
     return (
         <div> 
-            <Header title="Portfolio" />
+            <Header title="Portfolio" description="Voici quelques-unes de mes réalisations."/>
             <main className="container-fluid">
                 <div className="row d-flex justify-content-center">
                     <Achievments img={freshFoodImg} alt="légumes frais" 

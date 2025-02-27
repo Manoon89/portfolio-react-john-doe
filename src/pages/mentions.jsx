@@ -5,7 +5,7 @@ export default function MentionsLegales () {
 
     return(
         <body>
-            <Header title="Mentions Légales" />
+            <Header title="Mentions Légales"/>
         </body>
     );
 }

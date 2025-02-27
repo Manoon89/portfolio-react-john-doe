@@ -5,7 +5,7 @@ export default function MyServices () {
 
     return(
         <body>
-            <Header title="Mon offre de services" />            
+            <Header title="Mon offre de services" description="Voici les prestations sur lesquelles je peux intervenir"/>            
         </body>
     );
 }
