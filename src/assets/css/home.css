@@ -1,9 +1,9 @@
 .index-header-titles {
-    height: 50vh;
+    height: 80vh;
     color: white;
-    background-image: url('./assets/images/hero-bg.jpg');
+    background-image: url('../images/hero-bg.jpg');
     background-repeat : no-repeat;
-    background-size: 100vh, cover;
+    background-size: 160vh;
     background-position: center;
     display: flexbox;
     align-content:center;
