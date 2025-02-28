@@ -8,9 +8,9 @@ import seoImg from "../assets/images/portfolio/seo.jpg"
 import coderImg from "../assets/images/portfolio/coder.jpg"
 import screensImg from "../assets/images/portfolio/screens.jpg"
 import bannerImg from "../assets/images/banner.jpg"
-import imgGit from "../assets/images/github.svg" ;
-import imgTwitter from "../assets/images/twitter.svg" ;
-import imgLink from "../assets/images/linkedin.svg" ;
+import imgGit from "../assets/icons/github.svg" ;
+import imgTwitter from "../assets/icons/twitter.svg" ;
+import imgLink from "../assets/icons/linkedin.svg" ;
 
 
 export default function MyAchievments () {
