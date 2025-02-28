@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react' ;
-import "./index.css" ;
+import { useState, useEffect, useLocation } from 'react' ;
 import React from 'react' ;
 import {Routes, Route} from 'react-router-dom' ;
 import Accueil from "./pages/index" ;
