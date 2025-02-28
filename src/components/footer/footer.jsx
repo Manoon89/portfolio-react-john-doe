@@ -8,7 +8,7 @@ export default function Footer (props) {
             <div className="row d-flex">
                 <section className="col-md-4">
                     <h3 className="fs-5 fw-normal">John Doe</h3>
-                    <Address />
+                    <Address/>
                     <a href="#"><img className="bg-dark me-1" src={props.imgGitHub} alt="icone Github"/></a>
                     <a href="#"><img className="bg-dark me-1" src={props.imgX} alt="icone X"/></a>
                     <a href="#"><img className="bg-dark me-1" src={props.imgLinkedin} alt="icone Linkedin"/></a>
