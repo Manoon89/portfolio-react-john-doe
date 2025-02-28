@@ -1,9 +1,6 @@
 import Header from "../components/header/header" ;
 import "../assets/css/home.css" ;
 import Footer from "../components/footer/footer" ;
-import imgGit from "../assets/icons/github.svg" ;
-import imgTwitter from "../assets/icons/twitter.svg" ;
-import imgLink from "../assets/icons/linkedin.svg" ;
 import imgJohn from "../assets/images/john-doe-about.jpg" ;
 
 export default function Home () {
@@ -56,7 +53,7 @@ export default function Home () {
                     </section>
                 </div>
             </main>
-            <Footer imgGitHub={imgGit} imgX={imgTwitter} imgLinkedin={imgLink}/>
+            <Footer />
         </body>
     );
 }

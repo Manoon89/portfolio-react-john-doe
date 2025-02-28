@@ -2,9 +2,6 @@ import Address from '../components/sglobals/address' ;
 import Form from '../components/contact/form' ;
 import Header from "../components/header/header" ;
 import Footer from "../components/footer/footer" ;
-import imgGit from "../assets/icons/github.svg" ;
-import imgTwitter from "../assets/icons/twitter.svg" ;
-import imgLink from "../assets/icons/linkedin.svg" ;
 import iconMap from "../assets/icons/map.svg";
 import iconGeo from "../assets/icons/geo-alt.svg";
 import iconPhone from "../assets/icons/phone.svg";
@@ -35,7 +32,7 @@ export default function ContactMe () {
                     </div>
                 </div>
             </main>
-            <Footer imgGitHub={imgGit} imgX={imgTwitter} imgLinkedin={imgLink}/>
+            <Footer />
         </div>
     );
 }
