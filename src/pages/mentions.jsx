@@ -11,7 +11,9 @@ export default function MentionsLegales () {
 
     return(
         <div>
-            <Header title="Mentions Légales"/>
+            <Header title="Mentions Légales"
+                line={<div className="mx-auto my-3 border-top border-4 border-primary mb-4" style={{width: "30%"}}></div>}
+            />
 
             <main className="w-75 accordion">
 

@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom' ;
 export default function Footer (props) {
 
     return(
-        <footer className="bg-dark text-light container-fluid p-4 m-auto">
+        <footer className="bg-dark text-light container-fluid p-4 m-auto mt-4">
             <div className="row d-flex">
                 <section className="col-md-4">
                     <h3 className="fs-5 fw-normal">John Doe</h3>

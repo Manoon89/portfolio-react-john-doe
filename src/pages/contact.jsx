@@ -12,7 +12,9 @@ export default function ContactMe () {
     return(
         <div>
             <Header title="Contact" description="Pour me contacter en vue d'un entretien ou d'une future collaboration,
-            merci de remplir le formulaire de contact."/>
+            merci de remplir le formulaire de contact." 
+            line={<div className="mx-auto my-3 border-top border-4 border-primary mb-4" style={{width: "30%"}}></div>}
+            />
             <main className="w-md-75 shadow p-4 mb-5 bg-body-tertiary rounded container-fluid">
                 <div className="row">
                     <div className="col-md-6 m-0 p-2">

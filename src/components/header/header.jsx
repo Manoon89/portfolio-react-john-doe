@@ -11,6 +11,7 @@ export default function Header (props) {
                 <h1 className="text-center pt-4">{props.title}</h1>
                 <h2 className="text-center">{props.subtitle}</h2>
                 <p className="text-center">{props.description}</p>
+                {props.line}
             </div>
         </header>
     );

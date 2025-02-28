@@ -13,7 +13,9 @@ export default function MyAchievments () {
     return (
         <div> 
             <Header title="Portfolio" description="Voici quelques-unes de mes réalisations."
-            img={<img className="w-100" src={bannerImg} alt="banière bleue"/>}/>
+                img={<img className="w-100" src={bannerImg} alt="banière bleue"/>}
+                line={<div className="mx-auto my-3 border-top border-4 border-primary mb-4" style={{width: "30%"}}></div>}
+            />
             <main className="container-fluid pb-4">
                 <div className="row d-flex justify-content-center">
                     <Achievments img={freshFoodImg} alt="légumes frais" 
