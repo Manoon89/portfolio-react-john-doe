@@ -14,7 +14,7 @@ export default function MyServices () {
     return(
         <div>
             <Header title="Mon offre de services" description="Voici les prestations sur lesquelles je peux intervenir"
-            img={<img src={bannerImg} alt="banière bleue"/>}/>   
+            img={<img className="w-100" src={bannerImg} alt="banière bleue"/>}/>   
             
             <main className="container-fluid pb-4">
                 <div className="row d-flex justify-content-center">
