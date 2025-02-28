@@ -8,6 +8,9 @@ import seoImg from "../assets/images/portfolio/seo.jpg"
 import coderImg from "../assets/images/portfolio/coder.jpg"
 import screensImg from "../assets/images/portfolio/screens.jpg"
 import bannerImg from "../assets/images/banner.jpg"
+import imgGit from "../assets/images/github.svg" ;
+import imgTwitter from "../assets/images/twitter.svg" ;
+import imgLink from "../assets/images/linkedin.svg" ;
 
 
 export default function MyAchievments () {
@@ -31,7 +34,7 @@ export default function MyAchievments () {
                     title="Maquette d'un site web" description="Création du prototype d'un site" tools="Réalisé avec FIGMA"/>
                 </div>
             </main>
-            <Footer />
+            <Footer imgGitHub={imgGit} imgX={imgTwitter} imgLinkedin={imgLink}/>
         </div>
     );
 }
