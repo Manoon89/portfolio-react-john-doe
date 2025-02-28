@@ -6,12 +6,14 @@ import espaceBienImg from "../assets/images/portfolio/espace-bien-etre.jpg"
 import seoImg from "../assets/images/portfolio/seo.jpg"
 import coderImg from "../assets/images/portfolio/coder.jpg"
 import screensImg from "../assets/images/portfolio/screens.jpg"
+import bannerImg from "../assets/images/banner.jpg"
 
 
 export default function MyAchievments () {
     return (
         <div> 
-            <Header title="Portfolio" description="Voici quelques-unes de mes réalisations."/>
+            <Header title="Portfolio" description="Voici quelques-unes de mes réalisations."
+            img={<img src={bannerImg} alt="banière bleue"/>}/>
             <main className="container-fluid">
                 <div className="row d-flex justify-content-center">
                     <Achievments img={freshFoodImg} alt="légumes frais" 

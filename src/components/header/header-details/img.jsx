@@ -1,4 +1,4 @@
-export default function Image () {
+export default function Logo () {
     return (
         <div>
 
