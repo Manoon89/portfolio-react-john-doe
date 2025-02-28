@@ -1,10 +1,26 @@
-header, main, footer, img{
-    max-width: 1200px;
+header, main, footer{
     margin: auto ;
     background-color: white;
 }
 
 a{
     text-decoration: none;
+}
+
+footer a{
     color: white;
 }
+
+main a{
+    color: black;
+}
+
+textarea{
+    height: 33vh;
+}
+
+@media (min-width: 768px) {
+    .w-md-75 {
+      width: 75%;
+    }
+  }
