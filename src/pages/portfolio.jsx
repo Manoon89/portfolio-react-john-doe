@@ -7,14 +7,17 @@ import seoImg from "../assets/images/portfolio/seo.jpg"
 import coderImg from "../assets/images/portfolio/coder.jpg"
 import screensImg from "../assets/images/portfolio/screens.jpg"
 import bannerImg from "../assets/images/banner.jpg"
-
+import imgGit from "../assets/icons/github.svg" ;
+import imgTwitter from "../assets/icons/twitter.svg" ;
+import imgLink from "../assets/icons/linkedin.svg" ;
+import Footer from "../components/footer/footer" ;
 
 export default function MyAchievments () {
     return (
         <div> 
             <Header title="Portfolio" description="Voici quelques-unes de mes réalisations."
             img={<img src={bannerImg} alt="banière bleue"/>}/>
-            <main className="container-fluid">
+            <main className="container-fluid pb-4">
                 <div className="row d-flex justify-content-center">
                     <Achievments img={freshFoodImg} alt="légumes frais" 
                     title="Fresh Food" description="Site de vente de produits frais en ligne" tools="Site réalisé avec PHP et MySQL"/>
@@ -30,6 +33,7 @@ export default function MyAchievments () {
                     title="Maquette d'un site web" description="Création du prototype d'un site" tools="Réalisé avec FIGMA"/>
                 </div>
             </main>
+            <Footer imgGitHub={imgGit} imgX={imgTwitter} imgLinkedin={imgLink}/>
         </div>
     );
 }
