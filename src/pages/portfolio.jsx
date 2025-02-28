@@ -1,5 +1,6 @@
 import Achievments from '../components/sglobals/achievments';
 import Header from "../components/header/header" ;
+import Footer from "../components/footer/footer" ;
 import freshFoodImg from "../assets/images/portfolio/fresh-food.jpg"
 import restaurantJaponaisImg from "../assets/images/portfolio/restaurant-japonais.jpg"
 import espaceBienImg from "../assets/images/portfolio/espace-bien-etre.jpg"
@@ -30,6 +31,7 @@ export default function MyAchievments () {
                     title="Maquette d'un site web" description="Création du prototype d'un site" tools="Réalisé avec FIGMA"/>
                 </div>
             </main>
+            <Footer />
         </div>
     );
 }
