@@ -1,11 +1,16 @@
+/*J'ai triché pour l'opacité du background-image, noter une opacité dans .index-header-titles me changeait l'opacité de la modale
+et plus possible ni de modifier l'opacité de la modale, et encore pire les boutons Close ne réagissaient plus. 
+Du coup ... j'ai modifié l'opacité de la photo et l'ai ré-importée dans le dossier ^^").*/
+
 .index-header-titles {
     height: 100vh;
-    color: white;
+    color: #ffffff;
     background-image: url('../images/hero-bg.jpg');
     background-repeat : no-repeat;
     background-size: cover;
-    background-position:center ;
-    display: flexbox;
-    align-content:center;
-    opacity:0.8;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
