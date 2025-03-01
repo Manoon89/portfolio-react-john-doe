@@ -50,7 +50,7 @@ export default function MentionsLegales () {
                             <section>
                                 <h4 className="mentions-subtitle">alwaysdata</h4>
                                 <address>91 Rue du Faubourg Saint-Honoré, 75008 Paris</address>
-                                <a className="always-data" href="#">{<img className="pe-2" src={iconGlobe} alt="icone globe"/>}www.alwaysdata.com</a>
+                                <a className="mentions-link" href="#">{<img className="pe-2" src={iconGlobe} alt="icone globe"/>}www.alwaysdata.com</a>
                             </section>
                         </div>
                     </div>
@@ -67,9 +67,17 @@ export default function MentionsLegales () {
                         <div className="accordion-body">
                             <section>
                                 <h4 className="mentions-subtitle">Crédits</h4>
-                                <p>Ce site a été réalisé par John Doe, étudiant au Centre Européen de Formation.</p>
-                                <p className="fst-italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site Pixabay</p>
-                                <p className="fst-italic">La favicon de ce site a été fournie par John doe Icons erstellt von Freepik - Flaticon</p>
+                                <p>Ce site a été réalisé par John Doe, étudiant au <a className="mentions-link" 
+                                    href="https://www.centre-europeen-formation.fr/" target="_blank">
+                                    Centre Européen de Formation</a>.
+                                </p>
+                                <p className="fst-italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues 
+                                    sur le site <a className="mentions-link" href="https://pixabay.com/fr/" target="_blank">Pixabay</a>
+                                </p>
+                                <p className="fst-italic">La favicon de ce site a été fournie par <a className="mentions-link" 
+                                    href="https://www.flaticon.com/de/kostenlose-icons/john-doe" 
+                                    target="_blank">John doe Icons erstellt von Freepik - Flaticon</a>
+                                </p>
                             </section>
                         </div>
                     </div>

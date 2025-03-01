@@ -5,7 +5,7 @@ export default function Achievments (props) {
             <article className="card-body">
                 <h3 className="card-title">{props.title}</h3>
                 <p className="card-text ">{props.description}</p>
-                <a href="#" className="btn btn-primary">Voir le site</a>
+                <a href="/portfolio" className="achievments-btn btn btn-primary">Voir le site</a>
             </article>
             <aside className="card-footer text-body-secondary">
                 {props.tools}
