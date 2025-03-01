@@ -50,7 +50,7 @@ export default function MentionsLegales () {
                             <section>
                                 <h4>alwaysdata</h4>
                                 <address>91 Rue du Faubourg Saint-Honoré, 75008 Paris</address>
-                                <a className="link-underline-primary" href="#">{<img src={iconGlobe} alt="icone globe"/>} www.alwaysdata.com</a>
+                                <a className="always-data" href="#">{<img className="pe-2" src={iconGlobe} alt="icone globe"/>}www.alwaysdata.com</a>
                             </section>
                         </div>
                     </div>

@@ -7,23 +7,34 @@
 
 body{
     font-family: NunitoSans, sans-serif;
+    font-weight: 400 ;
+}
+
+h1, h2, h3, h4, strong{
+    font-weight: 600;
 }
 
 header, main, footer, img{
     margin: auto ;
-    background-color: white;
 }
 
+/* On "annule" l'automatique du lien souligné */
 a{
     text-decoration: none;
 }
 
+/* et on rajoute un style différent pour le footer & le main */
 footer a{
     color: white;
 }
 
 main a{
     color: black;
+}
+
+.always-data{
+    color: blue;
+    text-decoration: underline;
 }
 
 textarea{
