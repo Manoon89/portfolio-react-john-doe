@@ -68,8 +68,8 @@ export default function MentionsLegales () {
                             <section>
                                 <h4>Crédits</h4>
                                 <p>Ce site a été réalisé par John Doe, étudiant au Centre Européen de Formation.</p>
-                                <p>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site Pixabay</p>
-                                <p>La favicon de ce site a été fournie par John doe Icons erstellt von Freepik - Flaticon</p>
+                                <p className="fst-italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site Pixabay</p>
+                                <p className="fst-italic">La favicon de ce site a été fournie par John doe Icons erstellt von Freepik - Flaticon</p>
                             </section>
                         </div>
                     </div>
