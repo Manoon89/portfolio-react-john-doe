@@ -8,9 +8,10 @@ export default function Header (props) {
             <Nav />
             {props.img}
             <div className={props.bg}>
-                <h1 className="text-center pt-4">{props.title}</h1>
+                <h1 className={props.classH1}>{props.title}</h1>
                 <h2 className="text-center">{props.subtitle}</h2>
-                <p className="text-center">{props.description}</p>
+                <p className="text-center title-description">{props.description}</p>
+                {props.line}
             </div>
         </header>
     );

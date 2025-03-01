@@ -1,8 +1,5 @@
 import Header from "../components/header/header" ;
 import Footer from "../components/footer/footer" ;
-import imgGit from "../assets/icons/github.svg" ;
-import imgTwitter from "../assets/icons/twitter.svg" ;
-import imgLink from "../assets/icons/linkedin.svg" ;
 import Address from '../components/sglobals/address' ;
 import iconMap from "../assets/icons/map.svg";
 import iconGeo from "../assets/icons/geo-alt.svg";
@@ -14,9 +11,11 @@ export default function MentionsLegales () {
 
     return(
         <div>
-            <Header title="Mentions Légales"/>
+            <Header title="Mentions Légales" classH1="text-center pt-4"
+                line={<div className="mx-auto my-3 border-top border-4 border-primary mb-4" style={{width: "30%"}}></div>}
+            />
 
-            <main className="w-75 accordion">
+            <main className="w-md-75 me-2 me-md-auto ms-2 ms-md-auto accordion">
 
                 <div className="accordion-item">
                     <h3 className="accordion-header">
@@ -49,9 +48,9 @@ export default function MentionsLegales () {
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             <section>
-                                <h4>alwaysdata</h4>
+                                <h4 className="mentions-subtitle">alwaysdata</h4>
                                 <address>91 Rue du Faubourg Saint-Honoré, 75008 Paris</address>
-                                <a className="link-underline-primary" href="#">{<img src={iconGlobe} alt="icone globe"/>} www.alwaysdata.com</a>
+                                <a className="mentions-link" href="#">{<img className="pe-2" src={iconGlobe} alt="icone globe"/>}www.alwaysdata.com</a>
                             </section>
                         </div>
                     </div>
@@ -67,10 +66,18 @@ export default function MentionsLegales () {
                     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             <section>
-                                <h4>Crédits</h4>
-                                <p>Ce site a été réalisé par John Doe, étudiant au Centre Européen de Formation.</p>
-                                <p>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site Pixabay</p>
-                                <p>La favicon de ce site a été fournie par John doe Icons erstellt von Freepik - Flaticon</p>
+                                <h4 className="mentions-subtitle">Crédits</h4>
+                                <p>Ce site a été réalisé par John Doe, étudiant au <a className="mentions-link" 
+                                    href="https://www.centre-europeen-formation.fr/" target="_blank">
+                                    Centre Européen de Formation</a>.
+                                </p>
+                                <p className="fst-italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues 
+                                    sur le site <a className="mentions-link" href="https://pixabay.com/fr/" target="_blank">Pixabay</a>
+                                </p>
+                                <p className="fst-italic">La favicon de ce site a été fournie par <a className="mentions-link" 
+                                    href="https://www.flaticon.com/de/kostenlose-icons/john-doe" 
+                                    target="_blank">John doe Icons erstellt von Freepik - Flaticon</a>
+                                </p>
                             </section>
                         </div>
                     </div>
@@ -78,7 +85,7 @@ export default function MentionsLegales () {
 
             </main>
 
-            <Footer imgGitHub={imgGit} imgX={imgTwitter} imgLinkedin={imgLink}/>
+            <Footer />
         </div>
     );
 }

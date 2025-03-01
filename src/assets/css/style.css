@@ -1,12 +1,59 @@
-header, main, footer, img{
-    margin: auto ;
-    background-color: white;
+/* Pas réussi à convertir la police en .woof le site Convertio n'y arrivait pas */
+
+@font-face{
+    font-family: NunitoSans ;
+    src: url(../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
 }
 
+header, main, footer, img{
+    margin: auto ;
+}
+
+body{
+    font-family: NunitoSans, sans-serif;
+    font-weight: 400 ;
+}
+
+/*On créer selon le brief une weight pour les titres de 600 qu'on modifie ensuite pour certains titres selon la maquette*/
+
+h1, h2, h3, h4, strong{
+    font-weight: 600;
+}
+
+.card-title, .contact-title, .mentions-subtitle, .section-title-home, h1{
+    font-weight: 800;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.section-title-home{
+    font-size: 2em;
+}
+
+.title-home{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+.skills{
+    font-size: 1em;
+}
+
+.title-description{
+    font-size: 0.9em;
+}
+
+/* On "annule" l'automatique du lien souligné */
 a{
     text-decoration: none;
 }
 
+/* et on rajoute un style différent pour le footer & le main & la section Crédits de la page Mentions Légales */
 footer a{
     color: white;
 }
@@ -15,10 +62,16 @@ main a{
     color: black;
 }
 
+.mentions-link{
+    color: blue;
+    text-decoration: underline;
+}
+
 textarea{
     height: 33vh;
 }
 
+/*Création d'une règle personnalisée pour pouvoir appliquer la width uniquement aux écrans moyens & grands */
 @media (min-width: 768px) {
     .w-md-75 {
       width: 75%;
@@ -28,4 +81,27 @@ textarea{
 .icon-services{
     width: 10%;
     color: blue;
+}
+
+/*Personnalisation lors du survol des cards - demandé dans le brief en CSS (effets graphiques). Idem pour les boutons*/
+
+.card:hover{
+    background-color: #efefef;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.5);
+}
+
+/* Consigne du brief pour la page réalisations : la couleur de fond doit légèrement s'éclaircir au survol
+Pour les autres boutons sur le brief il est indiqué que la couleur de fond doit s'assombrir au survol, pour ceux-là
+je laisse faire Bootstrap ;-) */
+.achievments-btn:hover{
+    background-color: rgba(13, 110, 253, 0.7);
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link.active{
+    text-decoration: underline;
+    font-weight: 800;
 }

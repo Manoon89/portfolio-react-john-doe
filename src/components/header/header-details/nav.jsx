@@ -2,6 +2,11 @@ import {NavLink} from 'react-router-dom' ;
 
 export default function Nav () {
 
+    {/*ayant 2 consignes différentes (bouton hamburger dans le brief demandé pour la tablette, mais les maquettes de tablettes
+    étant sur un modèle identique au format desktop, j'ai préféré me référer aux maquettes puisqu'elles sont le reflet 
+    du résultat attendu par le client. S'il fallait changer le breakpoint, au lieu de navbar-expand-md j'aurais mis
+    navbar-expand-lg */}
+
     return(
         <nav className="navbar navbar-dark navbar-expand-md bg-dark container-fluid">
             <div className="container-fluid">
