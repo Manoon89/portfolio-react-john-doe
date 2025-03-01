@@ -5,9 +5,9 @@ export default function Footer (props) {
 
     return(
         <footer className="bg-dark text-light container-fluid p-4 m-auto mt-4">
-            <div className="row d-flex">
+            <div className="row d-flex w-md-75 m-auto">
                 <section className="col-md-4">
-                    <h3 className="fs-5 fw-normal">John Doe</h3>
+                    <h3 className="fs-5 fw-normal mt-3">John Doe</h3>
                     <Address/>
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" 
@@ -26,22 +26,22 @@ export default function Footer (props) {
                     </svg>
                 </section>
                 <section className="col-md-4">
-                    <h3 className="fs-5 fw-normal">Liens utiles</h3>
+                    <h3 className="fs-5 fw-normal mt-3">Liens utiles</h3>
                     {/*Attention titre des pages ne correspondant pas toujours à ceux de la NavBar*/}
-                    <NavLink className="d-block lh-sm fw-light" to="/">Accueil</NavLink>
-                    <NavLink className="d-block lh-sm fw-light" to="/services">Services</NavLink>
-                    <NavLink className="d-block lh-sm fw-light" to="/portfolio">Portfolio</NavLink>
-                    <NavLink className="d-block lh-sm fw-light" to="/contact">Me contacter</NavLink>
-                    <NavLink className="d-block lh-sm fw-light" to="/mentionslegales">Mentions légales</NavLink>
+                    <NavLink className="d-block lh-base fw-light" to="/">Accueil</NavLink>
+                    <NavLink className="d-block lh-base fw-light" to="/services">Services</NavLink>
+                    <NavLink className="d-block lh-base fw-light" to="/portfolio">Portfolio</NavLink>
+                    <NavLink className="d-block lh-base fw-light" to="/contact">Me contacter</NavLink>
+                    <NavLink className="d-block lh-base fw-light" to="/mentionslegales">Mentions légales</NavLink>
                 </section>
                 <section className="col-md-4">
-                    <h3 className="fs-5 fw-normal">Mes dernières réalisations</h3>
-                    <a href="#" className="d-block lh-sm fw-light">Fresh Food</a>
-                    <a href="#" className="d-block lh-sm fw-light">Restaurant Akira</a>
-                    <a href="#" className="d-block lh-sm fw-light">Espace bien-être</a>
-                    <a href="#" className="d-block lh-sm fw-light">SEO</a>
-                    <a href="#" className="d-block lh-sm fw-light">Création d'une API</a>
-                    <a href="#" className="d-block lh-sm fw-light">Maquette d'un site</a>
+                    <h3 className="fs-5 fw-normal mt-3">Mes dernières réalisations</h3>
+                    <a href="#" className="d-block lh-base fw-light">Fresh Food</a>
+                    <a href="#" className="d-block lh-base fw-light">Restaurant Akira</a>
+                    <a href="#" className="d-block lh-base fw-light">Espace bien-être</a>
+                    <a href="#" className="d-block lh-base fw-light">SEO</a>
+                    <a href="#" className="d-block lh-base fw-light">Création d'une API</a>
+                    <a href="#" className="d-block lh-base fw-light">Maquette d'un site</a>
                 </section>
             </div>
         </footer>

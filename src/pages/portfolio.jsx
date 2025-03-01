@@ -12,12 +12,12 @@ import Footer from "../components/footer/footer" ;
 export default function MyAchievments () {
     return (
         <div> 
-            <Header title="Portfolio" description="Voici quelques-unes de mes réalisations."
+            <Header title="Portfolio" description="Voici quelques-unes de mes réalisations." classH1="text-center pt-4"
                 img={<img className="w-100" src={bannerImg} alt="banière bleue"/>}
                 line={<div className="mx-auto my-3 border-top border-4 border-primary mb-4" style={{width: "30%"}}></div>}
             />
             <main className="container-fluid pb-4">
-                <div className="row d-flex justify-content-center">
+                <div className="row d-flex justify-content-center me-2 me-md-auto ms-2 ms-md-auto">
                     <Achievments img={freshFoodImg} alt="légumes frais" 
                     title="Fresh Food" description="Site de vente de produits frais en ligne" tools="Site réalisé avec PHP et MySQL"/>
                     <Achievments img={restaurantJaponaisImg} alt="sushis" 
