@@ -25,7 +25,7 @@ h1, h2, h3, h4, strong{
 }
 
 h1{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .section-title-home{
@@ -38,6 +38,10 @@ h1{
 
 h2{
     font-size: 4em;
+}
+
+.contact-title, .card-title{
+    font-size: 1.5em;
 }
 
 .skills{
@@ -63,7 +67,7 @@ main a{
 }
 
 .mentions-link{
-    color: blue;
+    color: rgb(13, 110, 253);
     text-decoration: underline;
 }
 
@@ -80,7 +84,7 @@ textarea{
 
 .icon-services{
     width: 10%;
-    color: blue;
+    color: rgb(13, 110, 253);
 }
 
 /*Personnalisation lors du survol des cards - demandé dans le brief en CSS (effets graphiques). Idem pour les boutons*/

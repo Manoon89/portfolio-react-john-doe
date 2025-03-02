@@ -6,7 +6,7 @@ import Portfolio from "./pages/portfolio" ;
 import Contact from "./pages/contact" ;
 import MentionsLegales from "./pages/mentions" ;
 
-function App() {
+export default function App() {
 
   return (
     <div className="App">
@@ -22,5 +22,3 @@ function App() {
     </div>
   )
 }
-
-export default App

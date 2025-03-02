@@ -22,8 +22,8 @@ export default function ContactMe () {
                     </div>
                     <div className="col-md-6 m-0 p-2">
                         <section>
-                            <h3 className="contact-title border-bottom border-primary pb-4 mb-4 border-3">Mes coordonnées</h3>
-                            <h4 className="pt-2">John Doe</h4>
+                            <h2 className="contact-title border-bottom border-primary pb-4 mb-4 border-3">Mes coordonnées</h2>
+                            <h3 className="pt-2 fs-4">John Doe</h3>
                             <Address className="text-dark" imgAddress={<img src={iconMap} alt="icone carte"/>} 
                                 imgCity={<img src={iconGeo} alt="icone géolocalisation"/>} 
                                 imgTel={<img src={iconPhone} alt="icone smartphone"/>} 

@@ -1,8 +1,10 @@
-# React + Vite
+Technologies utilisées : 
+- HTML
+- CSS avec pour une partie la bibliothèque Bootstrap
+- JavaScript
+- JSX via bibliothèque React
+- Git & GitHub & notamment API GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Description du projet :
+Créer et rendre fonctionnel le site internet de John Doe, selon les maquettes fournies, la charte graphique, et le brief. 
+Un travail doit être effectué sur le SEO, et le site doit évidemment être adapté en responsive design. 

@@ -1,5 +1,6 @@
 import Achievments from '../components/sglobals/achievments';
 import Header from "../components/header/header" ;
+import Footer from "../components/footer/footer" ;
 import freshFoodImg from "../assets/images/portfolio/fresh-food.jpg"
 import restaurantJaponaisImg from "../assets/images/portfolio/restaurant-japonais.jpg"
 import espaceBienImg from "../assets/images/portfolio/espace-bien-etre.jpg"
@@ -7,7 +8,6 @@ import seoImg from "../assets/images/portfolio/seo.jpg"
 import coderImg from "../assets/images/portfolio/coder.jpg"
 import screensImg from "../assets/images/portfolio/screens.jpg"
 import bannerImg from "../assets/images/banner.jpg"
-import Footer from "../components/footer/footer" ;
 
 export default function MyAchievments () {
     return (
