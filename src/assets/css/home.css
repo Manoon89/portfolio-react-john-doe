@@ -1,6 +1,7 @@
 /*J'ai triché pour l'opacité du background-image, noter une opacité dans .index-header-titles me changeait l'opacité de la modale
 et plus possible ni de modifier l'opacité de la modale, et encore pire les boutons Close ne réagissaient plus. 
-Du coup ... j'ai modifié l'opacité de la photo et l'ai ré-importée dans le dossier ^^").*/
+J'ai tenté plein d'options, rajouter un z-index, indiquer un position, etc... sans succès. 
+Du coup ... j'ai modifié l'opacité de la photo et l'ai ré-importée dans le dossier. Au final, le rendu est celui attendu ^^" */
 
 .index-header-titles {
     height: 100vh;
@@ -13,4 +14,11 @@ Du coup ... j'ai modifié l'opacité de la photo et l'ai ré-importée dans le d
     flex-direction: column;
     justify-content: center;
     align-items:center;
+}
+
+/*Encore une difficulté rencontrée, pas réussi à modifier la couleur de la croix...
+A défaut j'ai changé le background pour qu'au moins elle soit visible */
+
+.btn-close {
+    background-color: var(--bs-secondary);
 }
