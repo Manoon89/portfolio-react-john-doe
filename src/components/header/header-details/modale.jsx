@@ -12,6 +12,8 @@ export default function Modale (props) {
                 <div className="modal-dialog modal-lg">
                     <div className="modal-content bg-dark border border-secondary">
                         <div className="modal-header">
+                            {/*Sur Bootstrap il est conseillé de laisser un h1. Perso j'aurais plutôt mis un h3 mais dans le doute
+                            je reste sur les recommandations Bootstrap*/}
                             <h1 className="modal-title fs-5 fw-medium" id="staticBackdropLabel">Mon profil GitHub</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>

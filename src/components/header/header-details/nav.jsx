@@ -10,7 +10,7 @@ export default function Nav () {
     return(
         <nav className="navbar navbar-dark navbar-expand-md bg-dark container-fluid">
             <div className="container-fluid">
-                <a className="navbar-brand text-light text-uppercase" href="/">John Doe</a>
+                <a className="navbar-brand text-light text-uppercase" href="/"><strong>John Doe</strong></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                 aria-expanded="false" aria-label="Toggle navigation">

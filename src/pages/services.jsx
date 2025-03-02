@@ -18,7 +18,7 @@ export default function MyServices () {
 
                     <Services 
                         title="UX Design" 
-                        description="L'UX Design est une discipline qui consiste à concervoir des produits
+                        description="L'UX Design est une discipline qui consiste à concevoir des produits
                             (sites web, applications mobiles, logiciels, objets connectés, etc) en plaçant l'utilisateur au centre des
                             préoccupations. L'objectif est de rendre l'expérience utilisateur la plus fluide et agréable possible."
                         img=
