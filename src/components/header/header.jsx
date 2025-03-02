@@ -1,5 +1,4 @@
 import Nav from './header-details/nav' ;
-import Modale from './header-details/modale' ;
 
 export default function Header (props) {
 
@@ -12,6 +11,7 @@ export default function Header (props) {
                 <h2 className="text-center">{props.subtitle}</h2>
                 <p className="text-center title-description">{props.description}</p>
                 {props.line}
+                {props.modal}
             </div>
         </header>
     );

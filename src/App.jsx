@@ -1,4 +1,3 @@
-import { useState, useEffect, useLocation } from 'react' ;
 import React from 'react' ;
 import {Routes, Route} from 'react-router-dom' ;
 import Accueil from "./pages/index" ;
@@ -6,7 +5,6 @@ import Services from "./pages/services" ;
 import Portfolio from "./pages/portfolio" ;
 import Contact from "./pages/contact" ;
 import MentionsLegales from "./pages/mentions" ;
-import Footer from "./components/footer/footer" ;
 
 function App() {
 

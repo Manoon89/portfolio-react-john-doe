@@ -2,12 +2,16 @@ import Header from "../components/header/header" ;
 import "../assets/css/home.css" ;
 import Footer from "../components/footer/footer" ;
 import imgJohn from "../assets/images/john-doe-about.jpg" ;
+import Modale from "../components/header/header-details/modale";
+import profilePhoto from "../assets/images/john-doe-profile.png"
+
+// N'ayant pas en ressources la photo pour la modale & ne l'ayant pas trouvée sur internet... j'ai improvisé :)
 
 export default function Home () {
     return (
-        <body>
+        <div>
             <Header title="Bonjour, je suis John Doe" subtitle="Développeur web full stack"
-            description="Modale" bg="index-header-titles" classH1="title-home text-center pt-4" />
+             modal={<Modale photo={profilePhoto} />} bg="index-header-titles" classH1="title-home text-center pt-4"/>
             <main className="w-md-75 shadow p-4 mt-4 mb-5 me-2 me-md-auto ms-2 ms-md-auto bg-body-tertiary rounded container-fluid">
                 <div className="row">
                     <section className="col-md-6 m-0 p-2">
@@ -54,6 +58,6 @@ export default function Home () {
                 </div>
             </main>
             <Footer />
-        </body>
+        </div>
     );
 }
